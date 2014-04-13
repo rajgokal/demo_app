@@ -19,6 +19,7 @@ gem 'jbuilder', '1.0.2'
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.2.0'
+  gem 'growl', '1.0.3'
 end
 
 group :doc do
