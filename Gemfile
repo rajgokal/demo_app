@@ -23,6 +23,7 @@ gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
 gem 'rspec-its', '~> 1.0.0.pre'
 gem 'rspec-mocks', '3.0.0.beta2'
+gem 'pg', '0.15.1'
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
@@ -36,6 +37,5 @@ group :doc do
 end
 
 group :production do
-  gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
